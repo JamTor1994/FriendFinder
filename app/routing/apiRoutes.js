@@ -17,8 +17,8 @@ module.exports = function(app) {
 	app.post('/api/friends', function(req, res) {
 		// Capture the user input object
 		var userInput = req.body;
-		
-
+		console.log(userInput);
+        console.log(friends);
 		var userResponses = userInput.scores;
 		// console.log('userResponses = ' + userResponses);
 
